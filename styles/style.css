@@ -45,7 +45,7 @@ footer {
   width: 100%;
   height: 323px;
   left: 0px;
-  top: 5992px;
+  top: 6250px;
   padding: 50px;
   background: rgba(1, 70, 192, 0.87);
   color: #FFFFFF;
@@ -103,7 +103,7 @@ main .slider .carousel-inner .carousel-item h5 {
 
 main .slider .carousel-inner .carousel-caption{
   position: absolute;
-  width: 381px;
+  width: 501px;
   height: 60px;
   left: 90px;
   top: 293px;
@@ -113,6 +113,48 @@ main .slider .carousel-inner .carousel-caption{
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+
+  
+}
+
+main .slider .carousel-inner .carousel-caption h3 {
+  color: #3774DF;
+  width: 400px;
+
+  position: absolute;
+  left: 6.04%;
+  right: 72.01%;
+  top: 3.71%;
+  bottom: 95.96%;
+  
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  /* or 110% */
+  
+  
+  /* color: #686868; */
+}
+
+main .slider .carousel-inner .carousel-caption p {
+  position: absolute;
+  width: 381px;
+  height: 60px;
+  left: 90px;
+  top: 293px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  
+  
+  color: #3774DF;
 }
 
 main .textbox1 {
@@ -181,7 +223,7 @@ main .textbox2 h3 {
   position: absolute;
   width: 418px;
   height: 23px;
-  left: -65px;
+  left: 65px;
   top: 170px;
   
   font-family: Inter;
@@ -196,7 +238,7 @@ main .textbox2 h3 {
 main .textbox2 hr {
   position: absolute;
   width: 400px;
-  left: -65px;
+  left: 65px;
   top: 185px;
   
   border: 4px solid #3774DF;
@@ -207,7 +249,7 @@ main .textbox2 p {
   position: absolute;
   width: 559px;
   height: 23px;
-  left: -65px;
+  left: 65px;
   top: 250px;
   
   font-family: Inter;
@@ -227,7 +269,7 @@ main .textbox2 button {
   position: absolute;
   /* width: 559px; */
   height: 23px;
-  left: -65px;
+  left: 65px;
   top: 450px;
 
   
@@ -828,7 +870,181 @@ main .cart-banner .row .cart-total .cart-button {
   border-radius: 8px;
 }
 
+main .textbox5 {
+  padding: 50px;
+}
 
+main .textbox5 h2 {
+  position: absolute;
+  width: 123px;
+  height: 23px;
+  left: 90px;
+  top: 5520px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 22px;
+  /* identical to box height, or 112% */
+  
+  
+  color: #3774DF;
+}
+
+main .textbox5 hr {
+  position: absolute;
+  width: 131.54px;
+  height: 0px;
+  left: 90px;
+  top: 5540px;
+  
+  border: 4px solid #3774DF
+}
+
+main .textbox5 p {
+  position: absolute;
+  width: 1000px;
+  height: 76px;
+  left: 90px;
+  top: 5600px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  
+  
+  color: #000000;
+}
+
+main .staff-box {
+  padding: 50px 50px 70px 50px;
+  position: absolute;
+  width: 100%;
+  height: 560px;
+  left: 0px;
+  top: 5698px;
+  
+  background: #BCD4FD
+}
+
+main .staff-box h1 {
+  position: absolute;
+  width: 333px;
+  /* height: 30px; */
+  left: 629px;
+  top: 19px;
+  
+  padding: 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 30px;
+  /* identical to box height, or 62% */
+  
+  letter-spacing: 0.03em;
+  
+  color: #3774DF;
+}
+
+main .staff-box .staff-image {
+  position: absolute;
+  width: 366px;
+  height: 420px;
+  left: 94px;
+  top: 40px;
+}
+
+main .staff-box .info-box {
+  position: absolute;
+  width: 366px;
+  height: 91.3px;
+  left: 94px;
+  top: 370.7px;
+  
+  background: #3774DF;
+}
+
+main .staff-box .staff-name {
+  position: absolute;
+  width: 209px;
+  height: 0px;
+  left: 18px;
+  top: 20.7px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 0px;
+  /* identical to box height, or 0% */
+  
+  
+  color: #FFFFFF;
+}
+
+main .staff-box .icon-row {
+  position: absolute;
+  width: 99px;
+  height: 0px;
+  left: 18px;
+  top: 5.7px;
+
+}
+
+main .staff-box .icon-row .job-title  {
+  position: absolute;
+  width: 400px;
+  height: 0px;
+  left: 10px;
+  top: 55.3px;
+  
+  
+}
+
+main .staff-box .icon-row .job-title h3{
+  width: 400px;
+  left: 0px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 0px;
+  /* identical to box height, or 0% */
+  
+  
+  color: #FFFFFF;
+}
+
+main .staff-box .icon-row .job-icons i {
+  position: absolute;
+  left: 200px;
+  right: 30%;
+  top: 8.33%;
+  bottom: 8.33%;
+
+  margin: 20px;
+  
+  
+}
+
+main .staff-box .icon-row .job-icons ul {
+  width: 300px;
+  padding: 60px;
+}
+
+main .staff-box .icon-row .job-icons li{
+   
+  font-size: 50px;
+  color: #000000;
+  text-decoration: none;
+  display: inline-block;
+}
 
 
 
