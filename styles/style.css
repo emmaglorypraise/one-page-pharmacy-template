@@ -250,9 +250,24 @@ main .banner .jumbotron{
   margin-left: 0px !important;
 }
 
+footer{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #3774DF;
+  color: #FFFFFF;
+}
+
+footer ul li a{
+  color: #fff !important;
+}
+
+.quikie{
+  display: grid;
+  place-content: center;
+}
 @media (max-width: 640px) {
   .spec-desc, .prof, .clippy{
-    width: auto;
+    width: auto !important;
   }
 
   .carousel-caption{
@@ -294,6 +309,17 @@ main .banner .jumbotron{
     width: auto;
   }
 
+  .quikie{
+    display: block;
+  }
 
+  .mob-space{
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+
+  .banner{
+    color: #fff;
+  }
 
 }
