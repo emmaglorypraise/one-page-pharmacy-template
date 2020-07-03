@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+}
+.bg-dark{
+  background-color: #000000;
 }
 
 header .navbar {
@@ -20,9 +25,6 @@ header .navbar  .nav-item {
 
 header .navbar .nav-item .nav-link {
   color: #3774DF;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 19px;
   line-height: 22px;
 }
@@ -39,1018 +41,259 @@ header .navbar .navbar-toggler-icon, .navbar-toggler {
   color: #FFFFFF;
 }
 
-footer {
+/* Carousel */
 
+.carousel-control-prev{
   position: absolute;
-  width: 100%;
-  height: 323px;
-  left: 0px;
-  top: 6250px;
-  padding: 50px;
-  background: rgba(1, 70, 192, 0.87);
-  color: #FFFFFF;
-  display: block;
+    opacity: 1;
+    left: -2rem;
+    top: 10rem;
 }
 
-footer .footer-heading {
-  color: #FFFFFF;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 28px;
+.carousel-control-prev-icon {
+  border: 2px solid #83ADF5;
+  border-radius: 50%;
+  padding: 10px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgba(131, 173, 245, 1)'  viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
-footer hr {
-  color: #FFFFFF;
-  border: 1px solid #FFFFFF;
-}
-
-footer .footer-list ul li{
-  list-style: none;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
-}
-
-footer .copywrite {
-  text-align: center;
-  padding: 20px;
-}
- 
-main .slider .carousel-inner .carousel-item  .carousel-item{
-    height: 200px;
-} 
-main .carousel-item img{
-    height: 538px;
-}
- 
-main .slider .carousel-inner .carousel-item h5 {
+.carousel-control-next{
   position: absolute;
-  left: 6.04%;
-  right: 72.01%;
-  top: 3.71%;
-  bottom: 95.96%;
+  opacity: 1;
+  top: 10rem;
+}
 
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 26px;
+.carousel-control-next-icon{
+  border: 2px solid #83ADF5;
+  border-radius: 50%;
+  padding: 10px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='rgba(131, 173, 245,1)' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
 }
 
 main .slider .carousel-inner .carousel-caption{
-  position: absolute;
-  width: 501px;
-  height: 60px;
-  left: 90px;
-  top: 293px;
-
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+}
 
-  
+main .carousel-item img{
+ height: 100%;
+
+}
+
+.carousel-caption{
+  position: absolute;
+  top: 30.8rem;
+  left: 8rem;
 }
 
 main .slider .carousel-inner .carousel-caption h3 {
-  color: #3774DF;
-  width: 400px;
-
-  position: absolute;
-  left: 6.04%;
-  right: 72.01%;
-  top: 3.71%;
-  bottom: 95.96%;
-  
-
-  font-family: Inter;
-  font-style: normal;
+ 
   font-weight: 500;
   font-size: 24px;
   line-height: 26px;
-  /* or 110% */
-  
-  
-  /* color: #686868; */
+ 
+  color: #FFFFFF;
 }
 
 main .slider .carousel-inner .carousel-caption p {
-  position: absolute;
-  width: 381px;
-  height: 60px;
-  left: 90px;
-  top: 293px;
-  
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
+ 
   font-size: 16px;
   line-height: 20px;
-  /* or 125% */
-  
-  
+  width: 25rem;
+}
+
+.specialty-header{
+  width: 13rem;
+  border-bottom: 4px solid #3774DF;
   color: #3774DF;
+  margin-bottom: 1rem;
 }
 
-main .textbox1 {
-  padding: 20px;
+.spec-desc{
+  width: 50rem;
+}
+.professional-care{
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+}
+.specialty-header.prof{
+  width: 35rem;
 }
 
-main .textbox1 h3 {
-  position: absolute;
-  width: 150px;
-  height: 23px;
-  left: 40px;
-  top: 632px;
-
-  padding-top: 20px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 22px;
-  /* identical to box height, or 112% */
-
-
-  color: #3774DF;
-}
-
-main .textbox1 p {
-  position: absolute;
-  width: 748px;
-  height: 94px;
-  left: 40px;
-  top: 669px;
-  
-  /* Text-normal */
-  margin-top: 40px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  /* or 124% */
-  
-  
-  color: #686868;
-}
-
-main .textbox1 hr {
-  position: absolute;
-  width: 156.54px;
-  height: 0px;
-  left: 40.73px;
-  top: 660.5px;
-  
-  border: 4px solid #3774DF;
-  border-radius: 10px;
-}
-
-main .textbox2 img{
-  position: absolute;
-  width: 603px;
-  height: 429px;
-  left: 47px;
-  top: 150px;
-}
-
-main .textbox2 h3 {
-  position: absolute;
-  width: 418px;
-  height: 23px;
-  left: 65px;
-  top: 170px;
-  
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 22px;
-  /* identical to box height, or 112% */
-  color: #686868;
-}
-
-main .textbox2 hr {
-  position: absolute;
-  width: 400px;
-  left: 65px;
-  top: 185px;
-  
-  border: 4px solid #3774DF;
-  border-radius: 10px;
-}
-
-main .textbox2 p {
-  position: absolute;
-  width: 559px;
-  height: 23px;
-  left: 65px;
-  top: 250px;
-  
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 22px;
-  /* identical to box height, or 112% */
-  color: #686868;
-}
-
-main .textbox2 button {
+.btn-prof{
+  padding: .75rem 2rem;
+  /* border-radius: 8px; */
   background: #3774DF;
-  border-radius: 8px;
-  border: 1px solid #3774DF;
-  padding: 30px;
-  position: absolute;
-  /* width: 559px; */
-  height: 23px;
-  left: 65px;
-  top: 450px;
+}
 
-  
-
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
+.list-item{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   font-size: 18px;
-  line-height: 28px;
-  text-align: center;
-  /* identical to box height, or 156% */
-  
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  
-  color: #FFFFFF;
+
 }
 
-main .hours-note {
-  position: absolute;
-  width: 449px;
-  height: 422px;
-  left: 343px;
-  top: 1220px;
-  
-  background: #3774DF;
+.clippy{
+  clip-path: polygon(100% 0, 100% 69%, 71% 100%, 0 100%, 0 0);
+  background-color: #3774DF;
+  width: 25rem;
+  height: 23rem;
   border-radius: 8px;
-
-  /* border-left: ; */
-   
+  margin: auto;
+  position: relative;
+  top: -13rem;
 }
 
-main .hours-note p {
-  position: absolute;
-  width: 289px;
-  height: 364px;
-  left: 62px;
-  top: 35px;
-  
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 28px;
-  /* or 156% */
-  
-  
-  color: #FFFFFF;
-  /* color: #3774DF; */
-}
-
-main .textbox3 h2{
-  position: absolute;
-  width: 127px;
-  height: 23px;
-  left: 40px;
-  top: 1674px;
-  
-  
-  margin-top: 30px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 22px;
-  /* identical to box height, or 112% */
-  
-  
-  color: #3774DF;
-}
-
-main .textbox3 hr {
-  position: absolute;
-  width: 131.54px;
-  height: 0px;
-  left: 40px;
-  top: 1707px;
-  
-  margin-top: 40px;
-  border: 4px solid #3774DF;
-}
-
-main .textbox3 p {
-  position: absolute;
-  width: 671px;
-  height: 144px;
-  left: 60px;
-  top: 1168px;
-  
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 28px;
-  /* or 175% */
-  
-  
-  color: #686868;
-}
-
-main .textbox3 img {
-  position: absolute;
-  width: 671px;
-  height: 444px;
-  left: -10px;
-  top: 1128px;
-  
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 28px;
-  /* or 175% */
-  
-  
-  color: #686868;
-}
-
-main .textbox4 {
-  padding: 80px;
-
-  position: absolute;
-  width: 100%;
-  height: 221px;
-  left: 0px;
-  top: 2286px;
-  
+.recent{
   background: #C4C4C4;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-main .textbox4 h2 {
-  position: absolute;
-  width: 855px;
-  height: 140px;
-  left: 292px;
-  top: 45px;
+.recent-header{
+  color:  #3774DF;  
+}
+
+.card{
+  border: 0 !important;
+  cursor: pointer;
+  opacity: .8;
+}
+
+.card:hover{
+  box-shadow:  0 1rem 3rem rgba(0,0,0, .175);
   
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 28px;
-  /* or 175% */
-  
-  text-align: center;
-  
+}
+.product-price{
   color: #3774DF;
 }
 
-main .textbox4 hr {
-  position: absolute;
-  width: 168.54px;
-  height: 0px;
-  left: 629px;
-  top: 65px;
-  
-  border: 4px solid #3774DF;
+.card-img-top{
+  padding: 1rem;
+  height: 300px;
 }
 
-main .textbox4 .p1 {
-  position: absolute;
-  width: 855px;
-  height: 140px;
-  left: 292px;
-  top: 107px;
-  
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 28px;
-  /* or 175% */
-  
-  text-align: center;
-  
-  color: #000000;
+.card-header{
+  border: none;
+  background-color: transparent;
 }
 
-main .textbox4 .p2 {
-  position: absolute;
-  width: 955px;
-  height: 140px;
-  left: 292px;
-  top: 127px;
-  
-  margin-top: 30px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 28px;
-  /* or 175% */
-  
-  text-align: center;
-  
-  color: #000000;
-}
-
-main .product-slider {
-  position: absolute;
-  width: 955px;
-  height: 140px;
-  left: 292px;
-  top: 2527px;
-}
-
-main .product-slider .row {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-main .product-slider .row .col-md-3 {
-  padding: 50px;
-  
-}
-
-main .product-slider .row .product-name {
-  /* position: absolute;
-  width: 182px;
-  height: 19px;
-  left: 816px;
-  top: 2770px; */
-  
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  
-  color: #686868;
-  
-}
-
-main .product-slider .row .product-price {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  /* text-decoration-line: line-through; */
-  /* or 165% */
-  
-  
-  color: #3774DF;;
-}
-
-main .product-slider .row .product-price-new {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 26px;
-  /* text-decoration: none; */
-  text-decoration-line: line-through; 
-  /* or 165% */
-  
-  
-  color: #686868;
+.discount{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  color: #fff;
+  margin-left: auto;
+  background: #3774DF;
 }
 
 main .banner .jumbotron{
-  position: absolute;
-  width: 100%;
-  height: 632px;
-  left: 0px;
-  top: 3651px;
-  /* background-image: url("/img/images/Rectangle\ 133.png"); */
+ 
   background-repeat: no-repeat;
   background: linear-gradient( rgba(17, 17, 17, 0.5), rgba(71, 62, 62, 0.5) ), url('/img/images/Rectangle\ 133.png');
   background-size: cover;
-  opacity: 0.75;
+  opacity: .9;
+  height: 39.5rem;
 }
 
-main .banner .jumbotron .container {
-   text-align: center;
-   margin-top: 5%;
-}
-
-main .banner .jumbotron .container .display-4 {
-  color: #3774DF;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 26px;
-
-}
-
-main .banner .jumbotron .container .lead {
-  color: #686868;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 26px;
-
-
-}
-
-main .notification-form {
-  padding: 20px;
-    
-position: absolute;
-width: 1037px;
-height: 230px;
-left: 362px;
-top: 3520px;
-
-background: #C4C4C4;
-}
-
-main .notification-form h2 {
-  position: absolute;
-  left: 5.72%;
-  right: 44.44%;
-  top: 10.25%;
-  bottom: 46.27%;
-  
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 26px;
-  /* or 165% */
-  
-  
-  color: #FFFFFF;
-}
-
-main .notification-form form input {
-  position: absolute;
-  left: 5.72%;
-  right: 25.56%;
-  top: 44.54%;
-  bottom: 44.59%;
-  padding: 30px;
-  width: 50%;
-  background-color: #C4C4C4;
-  
-  border: 3px solid #686868;
-  border-radius: 5px;
-}
-
-
-main .notification-form form button {
-  position: absolute;
-  left:  59.99%;
-  right: 25.56%;
-  top: 44.54%;
-  bottom: 44.59%;
-  padding: 30px;
-  width: 20%;
-  
-  
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-  color: #FFFFFF;
-  background: #3774DF;
-  border: none;
-}
-
-main .message-form {
-  position: absolute;
-  width: 1182px;
-  height: 630px;
-  left: 142px;
-  top: 3970px;
-  
-  background: #FFFFFF;
-  box-shadow: -2px 6px 4px rgba(0, 0, 0, 0.14);
-  
-}
-
-main .message-form form {
-  
+.form{
   width: 80%;
-  margin: 50px auto;
+  margin: auto;
+  padding: 5rem;
+  background: #fff;
+  position: relative;
+  top: -16rem;
 }
 
-main .message-form form input {
-  
-  padding: 30px;
-  margin-top: 20px;
+.btn-form{
+  display: grid;
+  place-content: center;
 }
 
-main .message-form form input:focus {
-  border: none;
+.text-primary{
+  color: #3774DF !important;
 }
 
-main .message-form form input:active {
-  border: none;
+.bg-primary{
+  background-color: #3774DF !important;
 }
 
-main .message-form form textarea {
-  
-  padding: 30px;
-  margin-top: 20px;
-}
-
-
-main .message-form form textarea:focus {
-  border: none;
-}
-
-main .message-form form textarea:active {
-  border: none;
-}
-
-main .message-form form button {
-  padding: 30px;
-  width: 30%;
-  text-align: center;
-
-  position: absolute;
-  left: 30.19%;
-  right: 41.46%;
-  top: 77.57%;
-  bottom: 31.51%;
-  
-  color: #FFFFFF;
-  background: #3774DF;
-  border-radius: 8px;
-
-  display: flex;
-  order: 0;
-  align-items: center;
-  justify-content: center;
-  
-
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 28px;
-}
-
-main .cart-banner {
-  position: absolute;
-  width: 1360px;
-  height: 738px;
-  left: 40px;
-  top: 4706px;
-  background-image: url("/img/images/Rectangle\ 37.png");
-  background-size: cover;
-  background-repeat: no-repeat;
- 
-}
-
-main .cart-banner .container {
-  margin-top: 10px;
-  text-align: center;
-}
-
-main .cart-banner .row {
-  padding: 20px;
-}
-
-main .cart-banner .row h2 {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 26px;
-  /* or 165% */
-
-  position: absolute;
-  width: 279.25px;
-  height: 25.57px;
-  /* left: 575.41px; */
-  top: 5.19px;
-  
-  
-  color: #3774DF;
-}
-
-main .cart-banner h3 {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 26px;
-  /* or 165% */
-
-  position: absolute;
-  width: 113.16px;
-  height: 22.72px;
-  left: 103.36px;
-  top: 69.39px;
-  
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 26px;
-  
-  
-  color: #686868;
-}
-
-main .cart-banner .row .coupon input{
-  position: absolute;
-  width: 240.99px;
-  height: 60px;
-  left: 50.92px;
-  top: 9px;
-  
-  border: 1px solid #686868;
-  box-sizing: border-box;
-  border-radius: 8px;
-
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 28px;
-  /* or 140% */
-  
-  background-color: transparent;
-  color: #686868;
-  text-align: center;
-}
-
-main .cart-banner .row .coupon button {
-  position: absolute;
-  width: 231.21px;
-  height: 59.65px;
-  left: 294.14px;
-  top: 9px;
-  
-  background: #3774DF;
-  border-radius: 8px;
-
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 28px;
-  /* identical to box height, or 140% */
-  
-  
-  color: #FFFFFF;
-  border: none;
-}
-
-main .cart-banner .row .cart-total p {
-  position: absolute;
-  width: 234.7px;
-  height: 146.76px;
-  left: 340.57px;
-  top: -160.2px;
-  
-  
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 28px;
-  /* or 175% */
-  
-  
-  color: #3774DF;
-}
-
-main .cart-banner .row .cart-total .cart-button {
-  position: absolute;
-  width: 234.7px;
-  padding: 10px;
-  height: 59.65px;
-  left: 340.57px;
-  top: 10.2px;
-  
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 28px;
-  /* or 175% */
-  
-  
-  color: #FFFFFF;
-  
-  border: none;
+.btn-submit{
+  padding: .75rem 4rem;
   background: #3774DF;
   border-radius: 8px;
 }
 
-main .textbox5 {
-  padding: 50px;
+.container-fluid{
+  width: 95% !important;
 }
 
-main .textbox5 h2 {
-  position: absolute;
-  width: 123px;
-  height: 23px;
-  left: 90px;
-  top: 5520px;
-  
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 22px;
-  /* identical to box height, or 112% */
-  
-  
-  color: #3774DF;
+.team{
+  background: #BCD4FD;
+  padding: 3rem 3rem;
 }
 
-main .textbox5 hr {
-  position: absolute;
-  width: 131.54px;
-  height: 0px;
-  left: 90px;
-  top: 5540px;
-  
-  border: 4px solid #3774DF
+.info-box{
+  background-color: #3774DF;
+  padding: .75rem 2rem;
+  color: #FFFFFF;
+  width: 22.9rem;
 }
 
-main .textbox5 p {
-  position: absolute;
-  width: 1000px;
-  height: 76px;
-  left: 90px;
-  top: 5600px;
-  
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 28px;
-  /* or 175% */
-  
-  
-  color: #000000;
-}
-
-main .staff-box {
-  padding: 50px 50px 70px 50px;
-  position: absolute;
-  width: 100%;
-  height: 560px;
-  left: 0px;
-  top: 5698px;
-  
-  background: #BCD4FD
-}
-
-main .staff-box h1 {
-  position: absolute;
-  width: 333px;
-  /* height: 30px; */
-  left: 629px;
-  top: 19px;
-  
-  padding: 20px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 30px;
-  /* identical to box height, or 62% */
-  
-  letter-spacing: 0.03em;
-  
-  color: #3774DF;
-}
-
-main .staff-box .staff-image {
-  position: absolute;
-  width: 366px;
-  height: 420px;
-  left: 94px;
-  top: 40px;
-}
-
-main .staff-box .info-box {
-  position: absolute;
-  width: 366px;
-  height: 91.3px;
-  left: 94px;
-  top: 370.7px;
-  
-  background: #3774DF;
-}
-
-main .staff-box .staff-name {
-  position: absolute;
-  width: 209px;
-  height: 0px;
-  left: 18px;
-  top: 20.7px;
-  
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 0px;
-  /* identical to box height, or 0% */
-  
-  
+.staff-icons{
   color: #FFFFFF;
 }
 
-main .staff-box .icon-row {
-  position: absolute;
-  width: 99px;
-  height: 0px;
-  left: 18px;
-  top: 5.7px;
-
+.row {
+  margin-left: 0px !important;
 }
 
-main .staff-box .icon-row .job-title  {
-  position: absolute;
-  width: 400px;
-  height: 0px;
-  left: 10px;
-  top: 55.3px;
-  
-  
+@media (max-width: 640px) {
+  .spec-desc, .prof, .clippy{
+    width: auto;
+  }
+
+  .carousel-caption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90%;
+    margin-top: 7rem;
+  }
+
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none;
+  }
+
+  .spec-img{
+    width: 100%;
+  }
+
+  .professional-care{
+    margin-top: 5rem;
+  }
+
+  .services img{
+    width: 100%;
+  }
+
+  .form{
+    width: auto;
+    padding: 2rem;
+  }
+
+  .staff-image{
+    width: 100%
+  }
+
+  .info-box{
+    width: auto;
+  }
+
+
+
 }
-
-main .staff-box .icon-row .job-title h3{
-  width: 400px;
-  left: 0px;
-
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 0px;
-  /* identical to box height, or 0% */
-  
-  
-  color: #FFFFFF;
-}
-
-main .staff-box .icon-row .job-icons i {
-  position: absolute;
-  left: 200px;
-  right: 30%;
-  top: 8.33%;
-  bottom: 8.33%;
-
-  margin: 20px;
-  
-  
-}
-
-main .staff-box .icon-row .job-icons ul {
-  width: 300px;
-  padding: 60px;
-}
-
-main .staff-box .icon-row .job-icons li{
-   
-  font-size: 50px;
-  color: #000000;
-  text-decoration: none;
-  display: inline-block;
-}
-
-
-
-
-
-/* @media (max-width: 425px) {
-
-} */
-
